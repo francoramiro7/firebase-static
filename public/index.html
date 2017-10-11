@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<script src="https://www.gstatic.com/firebasejs/4.4.0/firebase.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="mainJS.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="resourses/favicon.png">
+<link rel="manifest" href="manifest.json">
+<head>
+    <meta charset="UTF-8">
+    <title>Franco Profile</title>
+</head>
+<body onload="setImage()">
+<div class="centered">
+<div>
+    <button type="button" class="btn btn-outline-primary center-size" onclick="start()" style="margin-bottom: 10px" >Adivina!</button>
+</div>
+<div>
+    <a style="text-align:center " id="text"></a>
+</div>
+<div>
+    <img class="rounded center-size" id="img1" name="img1" src="resourses/loading.gif">
+</div>
+
+</div>
+</body>
+</html>

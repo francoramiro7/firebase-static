@@ -1,0 +1,12 @@
+{
+  "short_name": "FrancoProfie",
+  "name": "Franco Profie",
+  "icons": [
+    {
+      "src": "resourses/favicon.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    }
+  ],
+  "gcm_sender_id": "103953800507"
+}
